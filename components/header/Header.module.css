@@ -1,0 +1,29 @@
+.header{
+    background-color: #0A0A0A;
+    border-bottom: #2F3035 1px solid;
+}
+
+.header ul{
+    display: flex;
+    width: 580px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 56px;
+}
+
+.header li{
+   list-style-type: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: #898989;
+}
+
+.header .active{
+    color: #FFFFFF
+}
+
+
+

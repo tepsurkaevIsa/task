@@ -1,0 +1,40 @@
+  .InputRange[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 196px;
+    height: 3.84px;
+    border-radius: 1px;
+    background: #3F3F40;
+    margin-bottom: 4px;
+  }
+ 
+  .InputRange[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #FF7E1D;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .InputRangeMin[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 121px;
+    height: 3.84px;
+    border-radius: 1px;
+    background: #3F3F40;
+  }
+
+  .InputRangeMin[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #FF7E1D;
+    border-radius: 50%;
+    cursor: pointer;
+  }

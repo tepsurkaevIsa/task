@@ -1,0 +1,28 @@
+.Description{
+    width: 196px;
+    font-size: 20px;
+    font-weight: 400;
+    height: 64px;
+    margin: 2px;
+    font-size: 40px;
+    line-height: 80%;
+}
+
+.Description > span {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.DescriptionMin{
+    font-size: 20px;
+    font-weight: 400; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DescriptionMin > span{
+    font-size: 12px;
+    margin: 3px 0 0 5px;  
+}
